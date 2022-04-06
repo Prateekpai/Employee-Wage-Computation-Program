@@ -19,7 +19,7 @@ namespace EmployeeWage
             int TotalWorkingHour = 100;
             int TotalWorkingDays = 20;
 
-            while (totalEmpHour < TotalWorkingHour || totalEmpWorkingDays < TotalWorkingDays)
+            while (totalEmpHour < TotalWorkingHour && totalEmpWorkingDays < TotalWorkingDays)
             {
                 totalEmpWorkingDays++;
                 Random random = new Random();
